@@ -6,9 +6,9 @@ int main(int argc, char** argv) {
 
 	int aMatrixHeight, aMatrixWidth, bMatrixHeight, bMatrixWidth;
 
-	printf("Matrix 1 (Rows Columns)- ");
+	printf("Matrix 1 (Rows Columns) - ");
 	scanf("%d %d",&aMatrixHeight,&aMatrixWidth);
-	printf("Matrix 2 (Rows Columns)- ");
+	printf("Matrix 2 (Rows Columns) - ");
 	scanf("%d %d",&bMatrixHeight,&bMatrixWidth);
 
 	if(aMatrixWidth == bMatrixHeight){
@@ -16,7 +16,7 @@ int main(int argc, char** argv) {
 
 		//Input matrices
 		int aMatrix[aMatrixHeight][aMatrixWidth], bMatrix[bMatrixHeight][bMatrixWidth];
-		printf("\Matrix 1\n");
+		printf("Matrix 1\n");
 		for(int i = 0; i < aMatrixHeight; i++){
 			for(int j = 0; j < aMatrixWidth; j++){
 				printf("Row %d, Column %d - ",i+1,j+1);
