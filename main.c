@@ -6,6 +6,7 @@ int main(int argc, char** argv) {
 
 	int aMatrixHeight, aMatrixWidth, bMatrixHeight, bMatrixWidth;
 
+	//Input matrices sizes
 	printf("Matrix 1 (Rows Columns) - ");
 	scanf("%d %d",&aMatrixHeight,&aMatrixWidth);
 	printf("Matrix 2 (Rows Columns) - ");
